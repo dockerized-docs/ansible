@@ -1,6 +1,6 @@
 # dockerized-docs-ansible
 
-# What is it?#
+# What is it?
 Dockerzied Ansible documentation for offline use.
 
 # Image description #
