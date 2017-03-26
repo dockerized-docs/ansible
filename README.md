@@ -4,8 +4,8 @@
 Dockerzied Ansible documentation for offline use.
 
 # Image description #
-- Base image: `httpd:2.4.23-alpine`.
-- The most current ansible `devel` branch is cloned and built using Sphinx documentation generator.
+- Base image: `httpd:2.4.23-alpine`
+- The most current ansible `devel` branch is cloned and built using Sphinx documentation generator
 - Ansible documentation directory (`/ansible/docsite/htmlout`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`)  
 
 # How to use this image #
