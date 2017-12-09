@@ -4,9 +4,8 @@
 Dockerzied Ansible documentation for offline use.
 
 # Image description #
-- Base image: `httpd:2.4.23-alpine`
+- Base image: `centos/httpd-24-centos7`
 - The most current ansible `devel` branch is cloned and built using Sphinx documentation generator
-- Ansible documentation directory (`/ansible/docsite/htmlout`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`)  
 
 # How to use this image #
 
@@ -15,4 +14,4 @@ $ docker run -d genadipost/dockerized-docs-ansible
 
 ```
 
-You can test it by visiting http://container-ip:80
+You can test it by visiting http://container-ip:8080
